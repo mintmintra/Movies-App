@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จองที่นั่งโรงภาพยนตร์</title>
+    <link rel="stylesheet" href="stylebook.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <h2>Movies App (TMDB)</h2>
+        </a>
+        <a href="booking.html">
+            <h2>จองที่นั่งโรงภาพยนตร์</h2>
+        </a>
+        <h2>Years : </h2>
+        <select id="years">
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+        </select>
+    </nav>
+    <div class="movie-container">
+        <label for="">เลือกภาพยนตร์ :</label>
+        <select name="" id="movie">
+            <option value="200">เดอะ แบทแมน | ฿200</option>
+            <option value="150">พี่นาค 3 | ฿150</option>
+            <option value="300">มอร์เบียส | ฿300</option>
+        </select>
+    </div>
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>ว่าง</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>ที่นั่งของเรา</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>ไม่ว่าง</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">เลือกจำนวน
+        <span id="count">0</span> ที่นั่ง
+        ยอดชำระเงิน <span id="total">0</span> บาท
+    </p>
+    <script src="scriptbook.js"></script>
+</body>
+
+</html>
